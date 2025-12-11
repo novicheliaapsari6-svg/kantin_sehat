@@ -1,0 +1,83 @@
+/* === GLOBAL STYLE === */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8f5e9; /* hijau muda */
+    margin: 0;
+    padding: 0;
+    color: #2e7d32;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+/* === CARD === */
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* === INPUT & BUTTON === */
+input[type="text"], input[type="password"], input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #a5d6a7;
+    border-radius: 5px;
+}
+
+button {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1b5e20;
+}
+
+/* === WRAPPER === */
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* === PRODUCT GRID === */
+.product-box {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    width: 220px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.product-item a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background: #2e7d32;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.product-item a:hover {
+    background: #1b5e20;
+}
